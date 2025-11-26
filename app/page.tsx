@@ -1,65 +1,77 @@
-import Image from "next/image";
+"use client"
+import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen">
+      
+      {/* HERO SECTION */}
+      <div className="relative h-[85vh] w-full bg-[url('/flovetbg2.jpg')] bg-cover bg-center bg-no-repeat">
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center px-4 text-center">
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-bold">
+            Welcome to Flovet Care Services Ltd
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <hr className="w-24 sm:w-32 md:w-40 border-0 h-[2px] mt-3 mb-3 rounded-[15px] bg-white"/>
+
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-[27px] text-white">
+            Where care comes from the heart
+          </p>
+
+          <Link 
+            href="/" 
+            className="border-2 rounded-[15px] text-[16px] sm:text-[17px] md:text-[18px] text-white hover:bg-white/20 px-6 py-3 mt-6"
+          >
+            Read more about us
+          </Link>
+        </div>
+      </div>
+
+      {/* WHAT WE DO TITLE */}
+      <div className="bg-white text-center pt-8">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[70px] font-bold text-[#333]">
+          What we do
+        </h2>
+      </div>
+
+      {/* CONTENT SECTIONS */}
+      <div className="bg-white">
+
+        {/* FIRST BLOCK */}
+        <div className="bg-[#004a3f] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 py-12 px-4">
+          <img 
+            src="flovetbg.jpg" 
+            className="h-48 sm:h-60 md:h-[300px] rounded-2xl object-cover"
+            alt=""
+          />
+
+          <div className="grid gap-4 max-w-md text-center md:text-left">
+            <p className="text-xl sm:text-2xl md:text-[25px] font-bold text-white">
+              Flovet Care Ltd
+            </p>
+            <p className="text-base sm:text-lg md:text-[23px] text-white">
+              Our area of specialty in is domiciliary care. We intend to give care that has no limitations. We aim to give care that will add more value to little things that count. Our services recognise individuality.
+            </p>
+          </div>
+        </div>
+
+        {/* SECOND BLOCK */}
+        <div className="bg-[#006456] flex flex-col md:flex-row-reverse items-center justify-center gap-6 md:gap-12 py-12 px-4">
+          <img 
+            src="flovethome.jpg" 
+            className="h-48 sm:h-60 md:h-[300px] rounded-2xl object-cover"
+            alt=""
+          />
+
+          <p className="max-w-md text-base sm:text-lg md:text-[23px] text-white text-center md:text-left">
+            We give care at home for elderly which includes Personal Care, Specialist Care, Respite Care and more. All services are flexible and person-centered; putting dignity and respect at the core of the care delivery.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+
+      </div>
+
     </div>
-  );
+  )
 }
