@@ -59,11 +59,16 @@ export default function Contact() {
           <hr className="border-gray-400"/>
 
           {/* Phone */}
+          <div className="flex gap-[50px] justify-center">
           <div className="text-center">
             <h3 className="text-2xl sm:text-3xl md:text-[30px] font-bold mb-2">Phone</h3>
-            <p className="text-base sm:text-lg md:text-[22px]">07939416298</p>
+            <a href="tel:07939416298" className="underline text-base sm:text-lg md:text-[22px]">07939416298</a>
+            </div>
+            <div>
+            <h3 className="text-2xl sm:text-3xl md:text-[30px] font-bold mb-2 text-center">Email</h3>
+            <a href="mailto:flovetcare@gmail.com?subject=Hello&body=I want to contact you" className="underline text-[25px]">flovetcare@gmail.com</a>          
+            </div>
           </div>
-
         </div>
       </div>
     </div>
