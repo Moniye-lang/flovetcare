@@ -45,13 +45,13 @@ export default function Contact() {
                 <div>Sunday</div>
               </div>
               <div className="text-lg sm:text-xl md:text-2xl grid gap-y-2">
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>
-                <div>8:00 - 10:00</div>  
+                <div>24 hours</div>
+                <div>24 hours</div>
+                <div>24 hours</div>
+                <div>24 hours</div>
+                <div>24 hours</div>
+                <div>24 hours</div>
+                <div>24 hours</div>  
               </div>
             </div>
           </div>
