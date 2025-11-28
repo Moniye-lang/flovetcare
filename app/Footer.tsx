@@ -60,7 +60,9 @@ export default function Footer() {
             Flovetcare@gmail.com
           </a>
         </div>
-
+      </div>
+     <div className="border-t border-gray-700 mt-8 pb-1.5 pt-4 text-[19px] text-center text-black text-sm">
+        © {new Date().getFullYear()} <span className="font-semibold text-teal-900">Flovetcare</span>. All Rights Reserved.
       </div>
     </footer>
   );
