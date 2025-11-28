@@ -21,7 +21,7 @@ export default function Home() {
           </p>
 
           <Link 
-            href="/" 
+            href="/about" 
             className="border-2 rounded-[15px] text-[16px] sm:text-[17px] md:text-[18px] text-white hover:bg-white/20 px-6 py-3 mt-6"
           >
             Read more about us
