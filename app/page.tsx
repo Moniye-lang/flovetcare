@@ -6,7 +6,7 @@ export default function Home() {
     <div className="min-h-screen">
       
       {/* HERO SECTION */}
-      <div className="relative h-[85vh] w-full bg-[url('/flovetbg2.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative h-[85vh] w-full bg-[url('/flovetbg3.jpg')] bg-cover bg-center bg-no-repeat">
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center px-4 text-center">
