@@ -14,7 +14,7 @@ export default function Navbar() {
     "px-4 py-2 text-white rounded-xl items-center flex text-lg bg-gradient-to-br from-teal-700 to-teal-500 hover:from-teal-500 hover:to-teal-800 transition";
 
   return (
-    <div className="w-full sticky top-0 z-50 bg-white py-4 px-6 sm:px-8 flex items-center justify-between font-sans shadow-md">
+    <div className="w-full sticky top-0 z-50 bg-white py-4 px-6 sm:px-8 flex items-center justify-between font-sans">
 
       {/* Logo */}
       <div className="text-2xl sm:text-3xl font-semibold flex items-center gap-3">

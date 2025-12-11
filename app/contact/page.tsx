@@ -9,7 +9,7 @@ export default function Contact() {
         <h1 className="text-3xl sm:text-4xl md:text-[40px] text-teal-900 font-bold mb-2">
           Where we are located?
         </h1>
-        <p className="text-base sm:text-lg md:text-[20px] max-w-2xl mx-auto">
+        <p className="text-[17px] sm:text-lg md:text-[20px] max-w-2xl mx-auto">
           Flovet Care is a new limited company which will provide domiciliary care
           services initially in Redbridge and Ilford in Essex.
         </p>
