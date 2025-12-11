@@ -11,7 +11,7 @@ export default function About() {
 
         {/* Image on top */}
         <img
-          src="/flovetabout.jpg"
+          src="/flovet4.jpg"
           alt="About Us"
           className="absolute top-1/2 right-0 md:right-[-30px] -translate-y-1/2 h-64 sm:h-80 md:h-[400px] rounded-2xl shadow-lg object-cover"
         />

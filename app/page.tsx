@@ -6,7 +6,7 @@ export default function Home() {
     <div className="min-h-screen">
       
       {/* HERO SECTION */}
-      <div className="relative h-[85vh] w-full bg-[url('/flovetbg3.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative h-[85vh] w-full bg-[url('/flovetncp.jpg')] bg-cover bg-center bg-no-repeat">
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center px-4 text-center">
@@ -42,7 +42,7 @@ export default function Home() {
         {/* FIRST BLOCK */}
         <div className="bg-[#004a3f] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 py-12 px-4">
           <img 
-            src="flovetbg.jpg" 
+            src="flovet2.jpg" 
             className="h-48 sm:h-60 md:h-[300px] rounded-2xl object-cover"
             alt=""
           />
@@ -60,7 +60,7 @@ export default function Home() {
         {/* SECOND BLOCK */}
         <div className="bg-[#006456] flex flex-col md:flex-row-reverse items-center justify-center gap-6 md:gap-12 py-12 px-4">
           <img 
-            src="flovethome.jpg" 
+            src="flovet3.jpg" 
             className="h-48 sm:h-60 md:h-[300px] rounded-2xl object-cover"
             alt=""
           />
