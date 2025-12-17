@@ -23,7 +23,7 @@ export default function Navbar() {
           alt="Logo" 
           className="w-14 h-14 sm:w-20 sm:h-20 object-contain" 
         />
-        <p className="text-teal-700">Domicillary Care</p>
+        <p className="text-teal-700">Domiciliary Care</p>
       </div>
 
       {/* Desktop Links */}
