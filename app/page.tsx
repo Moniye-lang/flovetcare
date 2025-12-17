@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* WHAT WE DO TITLE */}
       <div className="bg-white text-center pt-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[70px] font-bold text-[#333]">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[70px] font-bold text-[40px] pb-[10px] text-[#333]">
           What we do
         </h2>
       </div>
